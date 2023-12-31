@@ -1,0 +1,35 @@
+<script>
+function data
+{
+Var a=document.get Element By ("n1).value;
+Var b=document.get Element By ("n2).value;
+Var c=document.get Element By ("n3).value;
+Var d=document.get Element By ("n4).value;
+if(a==" "|| b==" "|| c=" "|| d==" ");
+{
+alert("All fields are mendatory");
+return false;
+}
+elseif
+(b.length<1011b.lenght>lenght>10)
+{
+aleart ("Number should be od 10 digit please enter);
+returnfalse;
+}
+elseif(is NaN (b))
+{
+alert("Onlu Number are allowed! please valid number);
+returnfalse;
+}
+elseif(c!= d)
+{
+alert("Please enter the same password");
+returnfalse;
+}
+else
+{
+true;
+}
+<form on submit = "return data()" action="#">
+Us
+
